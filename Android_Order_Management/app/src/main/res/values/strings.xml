@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Aventura Order Mangement</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="btn_assign">Assign Build</string>
+    <string name="btn_unassign">Unassign Build</string>
+    <string name="error_text">Something went wrong</string>
+
+    <string name="action_settings">Login</string>
+    <string name="action_register">Registration</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_icon">Item Icon</string>
+    <string name="nav_item_live">Live Items</string>
+    <string name="nav_item_archive">Archive Items</string>
+    <string name="nav_item_storagecalc">Storage Calculator</string>
+    <string name="nav_item_fibercalc">Fiber Calculator</string>
+    <string name="nav_item_lenscalc">Lens Calculator</string>
+    <string name="nav_item_voltagecalc">Voltage Drop Calculator</string>
+
+    <string name="input_email">Email</string>
+    <string name="input_username">Username</string>
+    <string name="input_password">Password</string>
+    <string name="btn_register">Register Account</string>
+    <string name="btn_login">Login</string>
+
+    <string-array name="drawer_labels">
+        <item>@string/nav_item_live</item>
+        <item>@string/nav_item_archive</item>
+        <item>@string/nav_item_storagecalc</item>
+        <item>@string/nav_item_fibercalc</item>
+        <item>@string/nav_item_lenscalc</item>
+        <item>@string/nav_item_voltagecalc</item>
+    </string-array>
+
+    <array name="drawer_icons">
+        <item>@drawable/ic_view_module_white_24dp</item>
+        <item>@drawable/ic_videocam_white_24dp</item>
+        <item>@drawable/storage_calc</item>
+        <item>@drawable/fiber_calc</item>
+        <item>@drawable/lens_calc</item>
+        <item>@drawable/voltage_calc</item>
+    </array>
+</resources>

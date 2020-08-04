@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Database Login" >
+        <EditTextPreference android:title="Username"
+            android:key="username"
+            android:summary="Please provide your username" />
+        <EditTextPreference android:title="Password"
+            android:key="password"
+            android:summary="Please provide your password"
+            android:inputType="textPassword"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

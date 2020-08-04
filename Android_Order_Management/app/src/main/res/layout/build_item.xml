@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="3dp"
+        app:cardElevation="5dp"
+        app:cardCornerRadius="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@android:color/white">
+
+            <ImageButton
+                android:id="@+id/btnPDF"
+                android:background="@drawable/pdf_icon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:id="@+id/tvCustomerName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/btnPDF"
+                android:textColor="@android:color/black"
+                android:layout_marginStart="2dp"
+                android:textSize="20sp"
+                android:text="Customer Name" />
+
+            <TextView
+                android:id="@+id/tvBuildItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/btnPDF"
+                android:layout_below="@id/tvCustomerName"
+                android:textColor="@android:color/black"
+                android:layout_marginStart="2dp"
+                android:textSize="15sp"
+                android:text="Build Item" />
+
+            <TextView
+                android:id="@+id/tvAssign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/btnPDF"
+                android:layout_below="@id/tvBuildItem"
+                android:textColor="@android:color/black"
+                android:layout_marginStart="2dp"
+                android:textSize="15sp"
+                android:text="Assigned To: " />
+
+            <TextView
+                android:id="@+id/tvAssignedTo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvBuildItem"
+                android:layout_toEndOf="@id/tvAssign"
+                android:textColor="@android:color/black"
+                android:layout_marginStart="1dp"
+                android:textSize="15sp"
+                android:text="USER" />
+
+            <Button
+                android:id="@+id/btnAssign"
+                android:background="@drawable/btnassign_selector"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="5dp"
+                android:layout_centerVertical="true"
+                android:text="@string/btn_assign" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
